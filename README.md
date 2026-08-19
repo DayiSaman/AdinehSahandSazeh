@@ -1,2 +1,0 @@
-# AdinehSahandSazeh
-آدینه سهند سازه
