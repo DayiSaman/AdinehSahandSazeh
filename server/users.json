@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1785939099455,
+        "firstname": "سامان",
+        "lastname": "پسران افشاریان",
+        "username": "@Owner",
+        "phone": "09101265744",
+        "password": "$2b$10$5vpHhgeGttbx7LDUYyOhl.i5A.lweVLb4ufahEXCnij.9tOea6MK2",
+        "createdAt": "2026-08-05T14:11:39.455Z"
+    },
+    {
+        "id": 1786992737783,
+        "firstname": "س",
+        "lastname": "س",
+        "username": "@saman",
+        "phone": "09101265741",
+        "password": "$2b$10$NwVSoJTyc8D4j6eiuyfCleJrYHghphC0XHJR5JA/nAmt5Rv2uHn6S",
+        "createdAt": "2026-08-17T18:52:17.783Z"
+    }
+]

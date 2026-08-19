@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تنظیمات حساب</title>
+
+<link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body class="profile-body">
+
+<div class="profile-page">
+
+<div class="profile-card">
+
+<h1>⚙️ تنظیمات حساب</h1>
+
+<div class="profile-info">
+
+<div class="auth-group">
+
+<label for="firstname">نام</label>
+
+<input
+id="firstname"
+type="text"
+maxlength="30"
+autocomplete="given-name">
+
+</div>
+
+<div class="auth-group">
+
+<label for="lastname">نام خانوادگی</label>
+
+<input
+id="lastname"
+type="text"
+maxlength="40"
+autocomplete="family-name">
+
+</div>
+
+<div class="auth-group">
+
+<label for="username">نام کاربری</label>
+
+<input
+id="username"
+type="text"
+maxlength="20"
+autocomplete="username"
+spellcheck="false">
+
+</div>
+
+<div class="auth-group">
+
+<label for="phone">شماره موبایل</label>
+
+<input
+id="phone"
+type="tel"
+maxlength="11"
+inputmode="numeric"
+autocomplete="tel">
+
+</div>
+
+</div>
+
+<div class="profile-menu">
+
+<button onclick="saveProfile()" class="profile-btn">
+💾 ذخیره تغییرات
+</button>
+
+<a href="profile.html" class="profile-btn">
+⬅️ بازگشت
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="../assets/js/edit-profile.js"></script>
+
+</body>
+</html>

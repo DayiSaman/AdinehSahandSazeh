@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>داشبورد کاربری | آدینه سهند سازه</title>
+
+    <link
+        rel="stylesheet"
+        href="../assets/css/style.css"
+    >
+
+</head>
+
+
+<body class="profile-body">
+
+
+<div class="profile-page">
+
+
+    <div class="profile-card">
+
+
+        <h1>
+            داشبورد کاربری
+        </h1>
+
+
+        <!-- ===============================
+             USER INFO
+        ================================ -->
+
+        <div class="profile-info">
+
+
+            <p>
+                👤 کاربر:
+                <span id="username"></span>
+            </p>
+
+
+            <p>
+                📱 شماره موبایل:
+                <span id="phone"></span>
+            </p>
+
+
+            <p id="roleBox" style="display:none;">
+                🛡️ نقش:
+                <span id="role">
+                    مدیر
+                </span>
+            </p>
+
+
+        </div>
+
+
+
+        <!-- ===============================
+             MENU
+        ================================ -->
+
+        <div class="profile-menu">
+
+
+            <a
+                href="orders.html"
+                class="profile-btn"
+            >
+                📦 سفارش‌های من
+            </a>
+
+
+
+            <a
+                href="tickets.html"
+                class="profile-btn"
+            >
+                🎫 تیکت پشتیبانی
+            </a>
+
+
+
+            <a
+                href="cart.html"
+                class="profile-btn"
+            >
+                🛒 سبد خرید
+            </a>
+
+
+
+            <a
+                href="profile.html"
+                class="profile-btn"
+            >
+                👤 پروفایل من
+            </a>
+
+
+
+            <!-- ===============================
+                 ADMIN
+            ================================ -->
+
+            <a
+                href="admin.html"
+                id="adminPanelButton"
+                class="profile-btn"
+                style="display:none;"
+            >
+                🛠️ پنل مدیریت
+            </a>
+
+
+
+            <button
+                onclick="logout()"
+                class="profile-btn danger"
+                type="button"
+            >
+                🚪 خروج از حساب
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<script src="../assets/js/dashboard.js"></script>
+
+
+</body>
+
+</html>

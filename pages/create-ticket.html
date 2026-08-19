@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>ایجاد تیکت جدید</title>
+
+    <link
+        rel="stylesheet"
+        href="../assets/css/style.css"
+    >
+
+</head>
+
+
+<body class="profile-body">
+
+
+<div class="profile-page">
+
+
+    <div class="profile-card create-ticket-page">
+
+
+        <h1>
+            🎫 ایجاد تیکت جدید
+        </h1>
+
+
+        <p class="ticket-description">
+            درخواست یا مشکل خود را برای پشتیبانی ارسال کنید.
+        </p>
+
+
+        <form id="createTicketForm">
+
+
+            <div class="auth-group">
+
+                <label for="ticketTitle">
+                    عنوان تیکت
+                </label>
+
+                <input
+                    id="ticketTitle"
+                    type="text"
+                    maxlength="100"
+                    placeholder="مثلاً مشکل در سفارش محصول"
+                    required
+                >
+
+            </div>
+
+
+            <div class="auth-group">
+
+                <label for="ticketCategory">
+                    دسته‌بندی
+                </label>
+
+                <select
+                    id="ticketCategory"
+                    required
+                >
+
+                    <option value="">
+                        انتخاب دسته‌بندی
+                    </option>
+
+                    <option value="محصولات">
+                        محصولات
+                    </option>
+
+                    <option value="سفارش">
+                        سفارش
+                    </option>
+
+                    <option value="پرداخت">
+                        پرداخت
+                    </option>
+
+                    <option value="پشتیبانی">
+                        پشتیبانی
+                    </option>
+
+                    <option value="مشاوره">
+                        مشاوره
+                    </option>
+
+                    <option value="سایر">
+                        سایر
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="auth-group">
+
+                <label for="ticketMessage">
+                    متن تیکت
+                </label>
+
+                <textarea
+                    id="ticketMessage"
+                    rows="7"
+                    maxlength="2000"
+                    placeholder="مشکل یا درخواست خود را کامل توضیح دهید..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="profile-btn"
+            >
+                📤 ارسال تیکت
+            </button>
+
+
+        </form>
+
+
+        <a
+            href="tickets.html"
+            class="profile-btn"
+        >
+            ⬅️ بازگشت به تیکت‌ها
+        </a>
+
+
+    </div>
+
+
+</div>
+
+
+<script src="../assets/js/tickets.js"></script>
+
+</body>
+
+</html>
